@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/stocks"
+        android:checked="true"
+        android:title="Stocks" />
+
+    <item
+        android:id="@+id/currencies"
+        android:title="Currencies" />
+
+    <item
+        android:id="@+id/commodities"
+        android:title="Commodities" />
+
+    <item
+        android:id="@+id/bonds"
+        android:title="Bonds" />
+
+    </group>
+</menu>

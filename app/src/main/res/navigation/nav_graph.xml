@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.tradingeconomics.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_marketFragment"
+            app:destination="@id/marketFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.tradingeconomics.newsPage.NewsFragment"
+        android:label="News" />
+    <fragment
+        android:id="@+id/marketFragment"
+        android:name="com.example.tradingeconomics.marketPage.MarketFragment"
+        android:label="Market" />
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.tradingeconomics.calendarPage.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/calendar_fragment" />
+</navigation>
