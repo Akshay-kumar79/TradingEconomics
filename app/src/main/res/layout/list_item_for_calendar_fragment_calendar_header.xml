@@ -3,7 +3,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="25dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -21,7 +22,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="16dp"
             android:fontFamily="@font/ubuntu_medium"
-            android:text="Mon | 2 Nov, 2021"
+            tools:text="Mon | 2 Nov, 2021"
             android:textColor="@color/black"
             android:textSize="16sp" />
 

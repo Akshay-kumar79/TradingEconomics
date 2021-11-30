@@ -2,14 +2,13 @@ package com.example.tradingeconomics
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
 import android.view.View
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.example.tradingeconomics.databinding.ActivityMainBinding
-import com.google.android.material.navigation.NavigationBarView
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -42,4 +41,5 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
     }
+
 }
